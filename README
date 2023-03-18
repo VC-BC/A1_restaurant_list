@@ -1,0 +1,32 @@
+# 環境建置
+- Node.js 10.15.0
+- Express 4.17.1
+- Express-Handlebars 5.3.3
+
+# 安裝與執行
+1. 請先確認本機有安裝Nodde.js跟npm
+2. 下載專案
+3. 從終端機移動到專案資料夾後輸入
+
+   ```bash
+   npm install
+   ```
+4. 安裝完畢後，繼續輸入
+
+   ```bash
+   npm run start
+   ```
+5. 看到下方訊息代表順利執行
+
+   ```bash
+   Listening on http://localhost:3000
+   ```
+6. 按 ctrl + C 停止運作
+
+# 功能描述
+使用者可以搜尋或查看餐廳資訊。
+
+- 查看所有餐廳
+- 瀏覽餐廳的詳細資訊
+- 連結餐廳的地址到 Google 地圖
+- 搜尋特定餐廳
